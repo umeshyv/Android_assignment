@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.umesh.blinkingapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is fade in Animation"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/startblinking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START ANIMATION"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textView"/>
+
+
+</RelativeLayout>
